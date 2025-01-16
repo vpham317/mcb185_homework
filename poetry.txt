@@ -1,4 +1,0 @@
-hello!
-poetry
-poetry
-poetry!

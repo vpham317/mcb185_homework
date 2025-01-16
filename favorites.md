@@ -1,15 +1,15 @@
-#Favorites
+_Favorites_
 ==========
 
-##Foods
-=======
+## Foods ##
+-----------
 	+ Burrito
 	+ Pizza
 
-##Songs
-======
+## Songs ##
+-----------
 	+ Last Christmas - Wham
 
-##Hobbies
-========
+## Hobbies ##
+--------------
 	+ Tennis

@@ -20,33 +20,51 @@ def saving(DC):
 # with advantage and disadvantage
 # R = 'adv', or 'disadv'
 
+trials = 100
 def savingR(DC, R):
-	x = random.randint(1, 20)
-	print(x)
-	y = random.randint(1, 20)
-	print(y)
-	if R == 'adv':
-		if x > y: i = x
-		if y > x: i = y
-		if DC == 'DC15': 
-			if i >= 15: print(i, 'success')
-			elif i < 15: print(i, 'fail')
-		if DC == 'DC5':
-			if i >= 5: print(i, 'success')
-			elif  i < 15: print(i, 'fail')
-		if DC == 'DC10':
-			if i >= 10: print(i, 'success')
-			elif i < 10: print(i, 'fail')
-	if R == 'disadv':
-		if x > y: i = y
-		if y > x: i = x
-		if DC == 'DC15': 
-			if i >= 15: print(i, 'success')
-			elif i < 15: print(i, 'fail')
-		if DC == 'DC5':
-			if i >= 5: print(i, 'success')
-			elif  i < 15: print(i, 'fail')
-		if DC == 'DC10':
-			if i >= 10: print(i, 'success')
-			elif i < 10: print(i, 'fail')
-print(savingR('DC15', 'disadv'))
+	success = 0
+	fail = 0
+	for k in range(trials):
+		x = random.randint(1, 20)
+		print(x)
+		y = random.randint(1, 20)
+		print(y)
+		if R == 'adv':
+			if x > y: i = x
+			if y > x: i = y
+			if DC == 'DC15': 
+				if i >= 15: 
+					print(i, 'success')
+					success += 1
+				elif i < 15: 
+					print(i, 'fail')
+					fail += 1
+			if DC == 'DC5':
+				if i >= 5: 
+					print(i, 'success')
+					success += 1
+				elif  i < 15: 
+					print(i, 'fail')
+					fail += 1
+			if DC == 'DC10':
+				if i >= 10: 
+					print(i, 'success')
+					success += 1
+				elif i < 10: 
+					print(i, 'fail')
+					fail += 1
+		if R == 'disadv':
+			if x > y: i = y
+			if y > x: i = x
+			if DC == 'DC15': 
+				if i >= 15: print(i, 'success')
+				elif i < 15: print(i, 'fail')
+			if DC == 'DC5':
+				if i >= 5: print(i, 'success')
+				elif  i < 15: print(i, 'fail')
+			if DC == 'DC10':
+				if i >= 10: print(i, 'success')
+				elif i < 10: print(i, 'fail')
+	print(success)
+	print(fail)
+print(savingR('DC15', 'adv'))

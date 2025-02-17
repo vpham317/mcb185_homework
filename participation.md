@@ -30,21 +30,38 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 1
 	+ Attended class on Tuesday
 	+ Attended class on Thursday
+	+ I met Ethan on Tuesday
+	+ Total 3 points
 - Week 2
 	+ Attended class on Tuesday 
 	+ Attended class on Thursday
 	+ I met Sohail on Thursday
+	+ Total 3 points
 - Week 3
 	+ Attended class on Tuesday
 	+ Attended class on Thursday
 	+ I met Lauren on Tuesday
+	+ Total 3 points
 - Week 4
 	+ I met Jimmy on Thursday
 	+ Attended class on Tuesday
 	+ Attended class on Thursday
+	+ Joined Coderie
+	+ Total 4 points
 - Week 5
-	
+	+ Attended class on Tuesday
+	+ Joined Coderie
+	+ Attended class on Thursday
+	+ Joined Office Hours
+	+ I met Livleen on Thursday
+	+ Total 5 points
 - Week 6
+	+ Attended class on Tuesday
+	+ Attended class on Thursday
+	+ Joined Coderie
+	+ Joined Office Hours
+	+ I met Metehan on Thursday
+	+ Total 5 points
 - Week 7
 - Week 8
 - Week 9

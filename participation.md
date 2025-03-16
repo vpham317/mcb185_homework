@@ -92,5 +92,4 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I met Anita on Tuesday
 	+ I helped Anita with a question she had
 	+ Joined Coderie
-	+ Joined office hours
-	+ Total 5 points
+	+ Total 4 points
